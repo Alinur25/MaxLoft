@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card-block {
+    margin-top: 165px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 90px;
+}
+
+.photo {
+    width: 320px;
+    height: 274px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info>h3 {
+    color: #2D2D2D;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info>h3>span {
+    color: rgba(236, 127, 0, 1);
+}
+
+.ifno>h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2D2D2D;
+}
+
+.photo {
+    background: url(../img/buss1.svg) center center no-repeat;
+}

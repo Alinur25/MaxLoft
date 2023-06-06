@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card-block {
+    margin-top: 165px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 90px;
+}
+
+.photo {
+    width: 320px;
+    height: 274px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info>h3 {
+    color: #2D2D2D;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info>h3>span {
+    color: rgba(236, 127, 0, 1);
+}
+
+.ifno>h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2D2D2D;
+}
+
+.c1 {
+    background: url(../img/fh1.svg) center center no-repeat;
+}
+.c2 {
+    background: url(../img/fh2.svg) center center no-repeat;
+}
+.c3 {
+    background: url(../img/fh3.svg) center center no-repeat;
+}
+.c4 {
+    background: url(../img/fh4.svg) center center no-repeat;
+}
+.c5 {
+    background: url(../img/fh5.svg) center center no-repeat;
+}
+.c6 {
+    background: url(../img/fh6.svg) center center no-repeat;
+}
+.c7 {
+    background: url(../img/fh7.svg) center center no-repeat;
+}
+.c8 {
+    background: url(../img/fh8.svg) center center no-repeat;
+}
+
